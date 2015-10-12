@@ -23,8 +23,8 @@
     "hard_drive_interface": "sata",
     "ssh_username": "{{user `ssh_username`}}",
     "ssh_password": "{{user `ssh_password`}}",
-    "ssh_wait_timeout": "20m",
-    "shutdown_timeout": "30m",	  
+    "ssh_wait_timeout": "60m",
+    "shutdown_timeout": "80m",	  
     "shutdown_command": "shutdown -P now",
     "vboxmanage_post": [
            ["storagectl", "{{.Name}}", "--name", "IDE Controller", "--remove"]
