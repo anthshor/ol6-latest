@@ -11,13 +11,9 @@ cp Stage3/* .
 ```
 
 ```
-packer build packer_ol6.json
+packer build ol66.json | tee packer-build-ol66.log
 ```
 
 root password is Welcome1
 
-## To Do
-Add latest patches to build
-```
-yum update
-```
+
