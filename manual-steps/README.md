@@ -15,10 +15,10 @@ wget http://public-yum.oracle.com/public-yum-ol6.repo
 
 Check ol6_latest is "enabled=1"
 
-  Optional step
-  ```
-  yum repolist  
-  ```
+Optional step
+```
+yum repolist  
+```
 
 Update
 ```
