@@ -3,11 +3,10 @@
 
 ### Install Linux
 
-cloned Stage from original ol6 packer build:
+
 
 ```
-git clone https://github.com/shortcutsh/packer-oraclelinux
-cp Stage3/* .
+git clone https://github.com/anthshor/ol6-latest
 ```
 
 To package box file locally
