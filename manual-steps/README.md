@@ -13,12 +13,12 @@ Download latest repo
 wget http://public-yum.oracle.com/public-yum-ol6.repo
 ```
 
-check ol6_latest is "enabled=1"
+Check ol6_latest is "enabled=1"
 
-Optional
-```
-yum repolist  
-```
+  Optional step
+  ```
+  yum repolist  
+  ```
 
 Update
 ```
