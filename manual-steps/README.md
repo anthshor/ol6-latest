@@ -1,23 +1,28 @@
-Manual process for updating Oracle Linux
-----------------------------------------
+# Manual process for updating Oracle Linux
 
-# Move existing repo out if the way
+Move existing repo out if the way
+```
 cd /etc/yum.repos.d
 mv public-yum-ol6.repo public-yum-ol6.repo.old
+```
+(I needed to set proxy variables http_proxy, https_proxy)
 
-# (I needed to set proxy variables http_proxy, https_proxy)
-
-# Download latest repo ?
+Download latest repo ?
+```
 wget http://public-yum.oracle.com/public-yum-ol6.repo
+```
 
-# check ol6_latest is "enabled=1"
+check ol6_latest is "enabled=1"
 
-# Optional
+Optional
+```
 yum repolist  
+```
 
-# Update
+Update
+```
 yum update -y
-
+```
 
 Ref
 ---
