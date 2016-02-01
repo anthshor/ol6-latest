@@ -7,7 +7,7 @@ mv public-yum-ol6.repo public-yum-ol6.repo.old
 ```
 (I needed to set proxy variables http_proxy, https_proxy)
 
-Download latest repo ?
+Download latest repo
 ```
 wget http://public-yum.oracle.com/public-yum-ol6.repo
 ```
